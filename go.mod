@@ -13,6 +13,8 @@ require (
 	golang.org/x/time v0.0.0-20220922220347-f3bd1da661af
 )
 
+replace github.com/hashicorp/vault-client-go => github.com/sebinjohn/vault-client-go v1.1.2
+
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
