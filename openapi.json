@@ -30968,7 +30968,7 @@
             "description": "Number of times a secret ID can access the role, after which the secret ID will expire."
           },
           "secret_id_ttl": {
-            "type": "string",
+            "type": "integer",
             "description": "Duration in seconds after which the issued secret ID expires.",
             "format": "duration"
           },
@@ -31229,7 +31229,7 @@
         "type": "object",
         "properties": {
           "secret_id_ttl": {
-            "type": "string",
+            "type": "integer",
             "description": "Duration in seconds after which the issued secret ID should expire. Defaults to 0, meaning no expiration.",
             "format": "duration"
           }
